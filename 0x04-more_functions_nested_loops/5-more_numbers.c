@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - nmbr fct
- * Bwave ICT file
+ * more_numbers - prints 0 to 9
  * Return: no return
  */
 
