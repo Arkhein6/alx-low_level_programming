@@ -10,6 +10,6 @@
 int _atoi(char *s)
 {
 	unsigned int ni;
-	n1 = atoi(s);
+	ni = atoi(s);
 	return (ni);
 }
