@@ -9,7 +9,7 @@
  */
 int _atoi(char *s)
 {
-	unsigned int n1;
+	unsigned int ni;
 	n1 = atoi(s);
 	return (ni);
 }
