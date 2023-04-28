@@ -1,10 +1,14 @@
 #include<stdio.h>
 
+
+void __attribute__((constructor)) startFunc(void);
+
 /**
- * startFunc - prints a string automatically before the main function using the constructor attribute
- * 
+ * startFunc- prints a string before the main function is executed
+ *
  */
-void __attribute__((constructor)) startFunc(void){
+
+void startFunc(void){
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
 }
